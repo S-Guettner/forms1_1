@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+}
+
+.required::after{
+    content: "*";
+    color: red;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+}
+.submit:hover{
+    background-color: blue;
+}
